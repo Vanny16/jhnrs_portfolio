@@ -566,6 +566,20 @@ a:focus {
 .portfolio_section {
   overflow-x: hidden;
 }
+.image-wrapper {
+  width: 100%;
+  height: 450px; /* or adjust to 260px, 280px, etc. */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* display: block; */
+}
+
 
 .portfolio_section .portfolio_container {
   margin-top: 45px;
@@ -578,10 +592,13 @@ a:focus {
       -ms-flex: 1;
           flex: 1;
   position: relative;
+
 }
 
 .portfolio_section .portfolio_container .box img {
   width: 100%;
+    text-align: center;
+  padding: 10px;
 }
 
 .portfolio_section .portfolio_container .box .link-box {
