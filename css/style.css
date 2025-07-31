@@ -1274,6 +1274,9 @@ background-color: rgba(255, 0, 127, 0.9);
   background-repeat: no-repeat;
 }
 
+.text-reflection {
+  color: #ff007f !important;
+}
 /* footer section*/
 .footer_section {
   background-color: #ff007f;
